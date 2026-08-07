@@ -11,9 +11,10 @@ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
-window.CCC_PIXEL_ID='PIXEL_ID_TBD';
+window.CCC_PIXEL_ID='1072089445337172';
 if(window.CCC_PIXEL_ID!=='PIXEL_ID_TBD'){fbq('init',window.CCC_PIXEL_ID);fbq('track','PageView');}
 </script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1072089445337172&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel -->
 <style>
 :root{--ink:#171B22;--paper:#FAF8F3;--dark:#10141C;--blue:#1B6EF3;--grey:#6B7280}
@@ -148,4 +149,13 @@ ml('account', '2550922');
 Charisma Cheat Codes is a skill-training product. It is not therapy, medical, or mental-health advice; results depend on doing the reps. If social situations cause you significant distress, please consult a qualified professional.<br><br>
 © 2026 Charisma Cheat Codes · Contact: hello@charismacheatcodes.com · Refunds: 60 days, unconditional
 </div></footer>
+<script>
+document.addEventListener('click', function(e){
+  var a = e.target.closest && e.target.closest('a[href*="gumroad.com"]');
+  if (a && window.fbq) fbq('track','InitiateCheckout');
+});
+document.addEventListener('submit', function(e){
+  if (e.target.closest('.ml-embedded') && window.fbq) fbq('track','Lead');
+}, true);
+</script>
 </body></html>
