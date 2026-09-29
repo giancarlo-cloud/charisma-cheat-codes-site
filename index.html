@@ -161,7 +161,7 @@ Charisma Cheat Codes is a skill-training product. It is not therapy, medical, or
 <script>
 document.addEventListener('click', function(e){
   var a = e.target.closest && e.target.closest('a[href*="gumroad.com"]');
-  if (a && window.fbq) fbq('track','InitiateCheckout');
+  if (a && window.fbq) fbq('trackCustom','ClickBuy');
 });
 document.addEventListener('submit', function(e){
   if (e.target.closest('.ml-embedded') && window.fbq) fbq('track','Lead');
